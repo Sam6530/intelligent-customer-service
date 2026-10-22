@@ -1,0 +1,21 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+~$*
+
+# Temporary outputs and dependency directories
+tmp/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
